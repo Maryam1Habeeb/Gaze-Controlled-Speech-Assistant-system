@@ -1,3 +1,41 @@
+# =========================
+# Project large files
+# =========================
+
+# Calibration data
+calibration/data/raw/
+calibration/data/processed/
+calibration/data/mappings/
+calibration/data/
+
+# Model files
+*.pth
+*.pt
+*.onnx
+*.npz
+*.pkl
+*.joblib
+
+# CSV outputs
+*.csv
+
+# Piper TTS large files
+app/piper/piper.exe
+app/piper/*.onnx
+app/piper/output.wav
+app/piper/*.wav
+
+# Media / captured images
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# Windows
+Thumbs.db
+
+# =====================
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
