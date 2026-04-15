@@ -129,4 +129,64 @@ calibration/data/mappings/
 calibration/models/
 ```
 
+## How to Run the Application
+### 1. Clone the repository
+```text
+git clone https://github.com/USERNAME/Gaze-Controlled_Speech-Assistant-System.git
+```
 
+### 2. Open the project folder
+```text
+cd final3
+```
+
+### 3. Install requirements
+```text
+pip install -r requirements.txt
+```
+
+### 4. Run the application 
+Using Python:
+```text
+python app/app.py
+```
+Or using the batch file on Windows:
+```text
+run_app.bat
+```
+
+### 5. Open the browser
+```text
+http://127.0.0.1:5000
+```
+
+## Requirements
+The project requires Python and the main libraries below:
+```text
+flask
+flask-socketio
+opencv-python
+mediapipe
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+joblib
+```
+
+# Notes
+The system uses a webcam, so camera permission is required.
+Calibration improves accuracy for each user.
+Large files such as datasets, trained model weights, and generated audio files may be excluded from GitHub using .gitignore.
+If model files are not included in the repository, they should be placed manually inside calibration/models/.
+
+## Purpose
+This project was developed as an assistive technology system to help users communicate using gaze interaction. It provides a hands-free way to select words and phrases through eye movement and supports speech output using text-to-speech.
+
+## Author
+-Maryam Al mutlaq
+-Fatemah Almosawi
+
+## License
+This project is licensed under the MIT License.
