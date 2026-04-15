@@ -82,7 +82,7 @@ final3/
 ```
 
 ## Main Components
-# 1. Web Application
+### 1. Web Application
 The web application is located inside the app/ folder.
 It includes:
 app.py: Runs the Flask server and connects the backend with the interface.
@@ -90,7 +90,7 @@ templates/index.html: Main user interface page.
 static/css/: Styling files for the interface.
 static/js/: JavaScript files for UI behavior, gaze interaction, audio, and button selection.
 piper/: Text-to-speech files used to generate spoken output.
-# 2. Calibration System
+### 2. Calibration System
 The calibration process is located inside the calibration/ folder.
 It includes scripts for:
 Collecting calibration images
@@ -99,7 +99,7 @@ Extracting facial landmarks
 Training a personal calibrator model
 Comparing different gaze mapping methods
 Saving the best gaze mapping model
-# 3. Text-to-Speech
+### 3. Text-to-Speech
 The system uses Piper TTS to convert selected words or phrases into speech.
 This allows the system to generate audio output locally.
 
